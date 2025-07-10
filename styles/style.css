@@ -5,6 +5,10 @@
   font-variation-settings:
     "wdth" 100;
 }
+
+body{
+    background-color: #f5f8ff;
+}
 header{
     background-image: url(../Assets/Hero-bg.png);
     max-width: 100%;
@@ -128,3 +132,119 @@ margin: 116px 141px 137px 141px;
    font-size: 38px;
    font-weight: 700;
  }
+ .user-number{
+    display: flex;
+    justify-content: space-around;
+ }
+ .user-sign{
+    color: rgb(78, 71, 255);
+    font-size: 40px;
+    font-weight: 600;
+ }
+ .user-sign-sun-title{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    font-weight: 400;
+ }
+ 
+ .star-parent{
+    display: flex;
+ }
+ .card-footer{
+   
+ display: flex;
+ 
+ align-items: center;
+gap: 5px
+
+ ;
+
+ }
+ .card-footer img{
+   border-radius: 50%;
+
+ }
+ .card-title{
+    color: rgb(30, 30, 30);
+    font-weight: 600;
+    font-size: 24px;
+ }
+ .card-sub-title{
+    color:rgb(30, 30, 30) ;
+    font-weight: 400;
+    font-size: 16px;
+
+ }
+ .Reviewer-name{
+    color:rgb(117, 117, 117) ;
+    font-size: 16px;
+    font-weight: 600;
+ }
+ .form-part{
+    display: flex;
+    justify-content:space-around;
+ }
+ .cards-container{
+  display: flex;
+  gap: 20px;
+  padding: 0px 149px 137px 151px;
+   
+   
+ }
+ .challange-part-title{
+    text-align: center;
+    color: rgb(37, 36, 50);
+    font-size: 42px;
+    font-weight: 700;
+ }
+ 
+ .challange-part{
+border: none;
+border-radius: 14px;
+background: rgba(255, 255, 255, 0.5);
+
+ }
+ .footer-parent{
+    display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+ }
+ footer section{
+    width: 531px;
+height: 221px;
+margin: 0 auto;
+box-sizing: border-box;
+border-top: 1px solid rgba(0, 0, 0, 0.1);
+
+text-align: center;
+
+ }
+ footer{
+background: rgb(255, 255, 255);
+max-width: 100%;
+width: 1440px;
+height: 428px;
+ }
+ footer section h1{
+    font-weight: 900;
+    font-size: 100px;
+   color:rgb(78, 71, 255);
+ }
+footer section div a{
+   
+    text-decoration: none ;
+    color: rgb(137, 135, 161);
+    font-weight: 400;
+    font-size: 16px;
+}
+footer section p{
+ 
+  color: rgb(137, 135, 161);
+  font-weight: 400;
+  font-size: 16px;
+}
+.form-part{
+    max-width: 100%;
+    width: 940px;
+height: 400px;
+}
