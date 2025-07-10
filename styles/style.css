@@ -1,0 +1,130 @@
+.open-sans-normal> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+header{
+    background-image: url(../Assets/Hero-bg.png);
+    max-width: 100%;
+    height: 690px ;
+ 
+
+}
+.banner{
+    
+    margin: 150px
+   267px 49px 267px;
+height: 237px;
+ max-width: 100%;
+}
+.secondary-btn{
+    display: flex;
+   justify-content:  space-around;
+  
+}
+.header-sub-title{
+ text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+
+
+
+.logo-title{
+    color: rgb(78, 71, 255) ;
+    font-size: 34px;
+    font-weight: 900
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 150px 0px 150px;
+    align-items: center;
+}
+.btn-primary{
+   width: 132px;
+height: 48px;
+border-radius: 10px;
+
+background: rgb(78, 71, 255);
+color:rgb(255, 255, 255) ;
+border: 0px;
+border-radius: 10px;
+padding: 12px 36px 12px 36px;
+}
+.btn-secondary{
+
+
+   color: rgb(255, 255, 255);
+   font-size: 16px;
+   font-weight: 300;
+   padding: 12px 36px 12px 36px;
+   border-radius: 10px;
+
+background: rgb(78, 71, 255);
+border: none;
+width: 174px;
+height: 48px;
+
+    
+}
+.action-part{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    max-width: 1140px;
+    margin: 116px 150px 116px 150px ;
+    gap: 240px
+    ;
+   
+
+}
+.action-part img{
+width: 390px;
+height: 320px;
+border-radius: 48px;
+
+}
+.action-title{
+    font-size: 42px;
+font-weight: 700;
+}
+
+
+.action-sub-title{
+    font-size: 24px;
+font-weight: 400;
+color: rgba(37, 36, 50, 0.5);
+margin-top: 23px ;
+}
+.launch-btn{
+    background-color:rgb(78, 71, 255) ;
+    border: none;
+    width:200
+    px;
+    height: 36px;
+    border-radius: 10px;
+}
+ .launch-btn-seondary{
+    color: rgb(255, 255, 255);
+    padding: 12px 36px 12px 36px;
+
+ }
+ .productive-part{
+   border-radius: 24px;
+background: rgba(78, 71, 255, 0.1);
+height: 306px;
+
+margin: 116px 141px 137px 141px;
+ }
+ .productive-part-title{
+    text-align: center;
+  padding-top: 50px ;
+  color: rgb(37, 36, 50);
+   font-size: 38px;
+   font-weight: 700;
+ }
