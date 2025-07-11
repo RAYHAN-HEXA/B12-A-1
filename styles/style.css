@@ -50,6 +50,7 @@ nav{
     margin: 0px 150px 0px 150px;
     align-items: center;
 }
+/* Nav Button */
 .btn-primary{
    width: 132px;
 height: 48px;
@@ -60,7 +61,11 @@ color:rgb(255, 255, 255) ;
 border: 0px;
 border-radius: 10px;
 padding: 12px 36px 12px 36px;
+ cursor: pointer;
+ transition: .2s;
 }
+.btn-primary:hover { background: #3367D6 }
+.btn-primary:active { background: #FBBC05 }
 .btn-secondary{
 
 
@@ -74,9 +79,14 @@ background: rgb(78, 71, 255);
 border: none;
 width: 174px;
 height: 48px;
+ cursor: pointer;
+ transition: .2s;
 
     
 }
+.btn-secondary:hover { background: #3367D6 }
+.btn-secondary:active { background: #FBBC05 }
+
 .action-part{
     display: flex;
     margin: 0 auto;
@@ -113,7 +123,12 @@ margin-top: 23px ;
     px;
     height: 36px;
     border-radius: 10px;
+    cursor: pointer;
+    transition: .2s;
 }
+.launch-btn:hover { background: #3367D6 }
+.launch-btn:active { background: #FBBC05 }
+
  .launch-btn-seondary{
     color: rgb(255, 255, 255);
     padding: 12px 36px 12px 36px;
@@ -244,6 +259,7 @@ footer section p{
   font-weight: 400;
   font-size: 16px;
 }
+/* Form styles start here */
 .form-part{
 max-width: 100%;
 width: 1140px;
@@ -304,7 +320,12 @@ border-radius: 10px;
 background: rgb(78, 71, 255);
 border: none;
 border-radius: 10px;
+cursor: pointer;
+transition: .2s;
 }
+.button:hover { background: #3367D6 }
+.button:active { background: #FBBC05 }
+
 input[type="submit"] {
  padding: 19px 101px 19px 101px;
  font-size: 16px;
@@ -318,3 +339,25 @@ border-radius: 10px;
 
 background: rgb(255, 255, 255);
 }
+/* hover css styles */
+.button-hover {
+    padding: 12px 24px;
+    background: #4285F4;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+   
+}
+.button-hover:hover { background: #3367D6 }
+.button-hover:active { background: #FBBC05 }
+.btn-hover{
+   display: flex;
+   justify-content: center;
+   margin: 100px 0px 0px 200px ;
+  
+}
+.btn-hover-primary{
+    width: 840px;
+   height: 300px;
+}
+/* hover part */
