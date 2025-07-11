@@ -10,6 +10,7 @@ body{
     background-color: #f5f8ff;
     margin: 0;
 }
+
 header{
     background-image: url(../Assets/Hero-bg.png);
     max-width: 100%;
@@ -44,6 +45,7 @@ height: 237px;
     font-weight: 900
 
 }
+/* Nav Section */
 nav{
     display: flex;
     justify-content: space-between;
