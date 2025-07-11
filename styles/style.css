@@ -8,6 +8,7 @@
 
 body{
     background-color: #f5f8ff;
+    margin: 0;
 }
 header{
     background-image: url(../Assets/Hero-bg.png);
@@ -244,7 +245,76 @@ footer section p{
   font-size: 16px;
 }
 .form-part{
-    max-width: 100%;
-    width: 940px;
-height: 400px;
+max-width: 100%;
+width: 1140px;
+height: 600px;
+display: flex;
+justify-content: space-around;
+}
+form input {
+   width: 497px;
+   height: 70px;
+   display: block;
+   align-items: center;
+  
+
+
+}
+.email-type , .text-type{
+   width: 497px;
+   height: 70px;
+   margin: 20px 0px 19px 0px;
+   
+   border: 1px solid rgb(214, 221, 237);
+  border-radius: 10px;
+
+   background: rgb(255, 255, 255);
+
+}
+form textarea{
+   width: 497px;
+height: 135px;
+  margin: 20px 0px 19px 0px;
+
+}
+.form-title{
+   
+   color:rgb(0, 0, 0) ;
+   font-weight: 600;
+   font-size: 50px;
+   padding: 70px 100px
+    0px 150px;
+  
+
+}
+
+input::placeholder {
+ padding: 20px 32px 20px 32px;
+color: rgb(0, 0, 0);
+}
+textarea::placeholder{
+   padding: 20px 32px 20px 32px;
+   color: rgb(0, 0, 0);
+}
+.button{
+   width: 497px;
+height: 62px;
+border-radius: 10px;
+
+background: rgb(78, 71, 255);
+border: none;
+border-radius: 10px;
+}
+input[type="submit"] {
+ padding: 19px 101px 19px 101px;
+ font-size: 16px;
+font-weight: 700;
+color: rgb(255, 255, 255);
+}
+.message{
+  
+border: 1px solid rgb(214, 221, 237);
+border-radius: 10px;
+
+background: rgb(255, 255, 255);
 }
